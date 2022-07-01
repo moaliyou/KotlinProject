@@ -1,4 +1,4 @@
-package Basics
+package basics
 
 fun main() {
     // displaying my name in the console
