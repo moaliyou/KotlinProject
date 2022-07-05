@@ -2,8 +2,13 @@ package basics
 
 fun main() {
     // calling greetMe() function
+    var numOne = 8
+    var numTwo = 3
+    var numThree = 4
     greetMe()
     addTwoNumbers(9, 8)
+    println("The square of 9 is ${squareOf(9)}")
+    println("The sum of $numOne, $numTwo and $numThree is ${sumOf(numOne, numTwo, numThree)}")
 }
 
 // Greeting Method
@@ -18,3 +23,14 @@ fun greetMe(){
 fun addTwoNumbers(numOne: Int, numTwo: Int){
     println("The sum of $numOne + $numTwo = " + (numOne + numTwo))
 }
+
+// squareOf Method/Function
+// this function takes a number and returns its square
+fun squareOf(num: Int): Int{
+    return (num * num)
+}
+
+// sumOf Method/Function
+// this is anonymous functions
+// its task is to sum 3 numbers
+val sumOf: (Int, Int, Int) -> Int = { numOne, numTwo, numThree -> ( numOne + numTwo + numThree ) }
