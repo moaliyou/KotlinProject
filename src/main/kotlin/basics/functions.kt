@@ -5,10 +5,12 @@ fun main() {
     var numOne = 8
     var numTwo = 3
     var numThree = 4
+   
     greetMe()
     addTwoNumbers(9, 8)
     println("The square of 9 is ${squareOf(9)}")
     println("The sum of $numOne, $numTwo and $numThree is ${sumOf(numOne, numTwo, numThree)}")
+    
 }
 
 // Greeting Method
