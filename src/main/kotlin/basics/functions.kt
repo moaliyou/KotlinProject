@@ -23,14 +23,12 @@ fun greetMe(){
 // this function has two integer arguments with no return type
 // it's task is to add two integer (Whole Number) numbers
 fun addTwoNumbers(numOne: Int, numTwo: Int){
-    println("The sum of $numOne + $numTwo = " + (numOne + numTwo))
+    println("The sum of $numOne + $numTwo = ${numOne + numTwo}")
 }
 
 // squareOf Method/Function
 // this function takes a number and returns its square
-fun squareOf(num: Int): Int{
-    return (num * num)
-}
+fun squareOf(num: Int): Int = (num * num)
 
 // sumOf Method/Function
 // this is anonymous functions

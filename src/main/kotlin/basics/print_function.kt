@@ -4,6 +4,6 @@ fun main() {
     // displaying my name in the console
     println("Hi, Mahmoud Ali Yousuf!!")
 
-    println("Welcome back sir :)")
+    println("Welcome back sir :")
     
 }
