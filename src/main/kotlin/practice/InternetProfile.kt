@@ -21,8 +21,7 @@ class Person(val name: String, val age: Int, val hobby: String?, val referrer: P
         } else {
             println("Name : ${this.name}")
             println("Age : ${this.age}")
-            println("Likes to ${this.hobby}. Doesn't have a referrer."
-            )
+            println("Likes to ${this.hobby}. Doesn't have a referrer.")
         }
     }
 
